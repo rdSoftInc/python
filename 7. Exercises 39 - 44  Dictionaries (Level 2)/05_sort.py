@@ -14,7 +14,6 @@ print('\nDictonary : ' + str(my_dict) + '\n')
 print('--------------------------------------------')
 
 for i in my_dict:
-
-    my_dict.get(i.sort())
+    my_dict.get(i).sort()
 
 print('\n' + str(my_dict) + '\n')
